@@ -2,8 +2,8 @@
 
 {{--{{ 'My Profile URL is: '.$username.$id }}--}}
 
-{{ "Id No.: ".$thisisId }}
+{{ "Id No.: ".$id }}
 <br>
-{{ "User Name: ".$thisIsusername }}
+{{ "User Name: ".$username }}
 <br>
-{{ "Department Name: ".$thisdept }}
+{{ "Department Name: ".$dept }}

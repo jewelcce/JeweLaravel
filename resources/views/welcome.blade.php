@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Hey Creative!
                 </div>
 
 
@@ -91,7 +91,7 @@
 
                     <a href="{{ url('/admin/usersurl/{dept}/{username}/{id}') }}">My Account (_url)</a>
 
-                    <a href="https://laravel-news.com">News</a>
+                    <a href="{{ route('contact') }}">Contact</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
