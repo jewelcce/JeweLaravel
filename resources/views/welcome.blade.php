@@ -82,9 +82,15 @@
                     Laravel
                 </div>
 
+
                 <div class="links">
-                    <a href="{{ url('/about') }}">About</a>
-                    <a href="https://laracasts.com">Laracasts</a>
+                    <a href="{{ url('/admin/') }}">Home</a>
+                    <a href="{{ route('BioData') }}">About</a>
+
+                    <a href="{{ route('MyAccount', ['dept','username','id'=>10]) }}">My Account (_route)</a>
+
+                    <a href="{{ url('/admin/usersurl/{dept}/{username}/{id}') }}">My Account (_url)</a>
+
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
