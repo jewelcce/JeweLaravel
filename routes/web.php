@@ -12,6 +12,7 @@
 */
 
 
+
 Route::prefix('admin')->group(function(){
 
 
@@ -26,14 +27,13 @@ Route::prefix('admin')->group(function(){
 
 
 
-
     //Route::get('/about-us', function(){
     //
     //    return view('about');
     //})->name('BioData');
     // ==== Route Naming
-
     Route::get('/about','WelcomeController@about')->name('BioData') ;
+
 
 
 
