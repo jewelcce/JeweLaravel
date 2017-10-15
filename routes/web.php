@@ -64,3 +64,21 @@ Route::prefix('admin')->group(function(){
 
 
 });
+
+Route::get('/', function () {
+
+    return view('index');
+});
+
+Route::get('/admin', function () {
+
+    return view('admin.index');
+});
+Route::get('/admin/categories/create', function () {
+
+    return view('admin.categories.create');
+});
+Route::get('/admin/categories/', function () {
+
+    return view('admin.categories.index');
+});
